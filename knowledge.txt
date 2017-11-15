@@ -1,6 +1,6 @@
-推荐系统:
+blog
+http://www.yittoo.com/blog/
+
+paper
 
 
-
-垃圾邮件检测：
-1、基于卷积神经网络(CNN)的中文垃圾邮件检测  http://blog.csdn.net/clayanddev/article/details/70738475
