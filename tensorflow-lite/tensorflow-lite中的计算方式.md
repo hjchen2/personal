@@ -6,8 +6,8 @@ tensorflow-lite对一般的op都提供了两种计算方式，reference和optimi
 
 默认使用optimized
 
-- reference   
-     裸写for循环的方式，同时支持float和uint8，uint8转int32计算
+- reference             
+     裸写for循环的方式，同时支持float和uint8，uint8转int32计算
 - optimized  
      optimized方式又分成两种实现，float用Gemm，uint8用gemmlowbit
      - Gemm：img2col后利用eigen进行矩阵乘运算，只支持float
