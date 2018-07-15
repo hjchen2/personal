@@ -3,4 +3,7 @@ http://www.yittoo.com/blog/
 
 paper
 
+细说浮点数（编码、round mode、溢出）
+https://www.cnblogs.com/fsjohnhuang/p/5109766.html
+
 
