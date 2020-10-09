@@ -1,5 +1,3 @@
-[TOC]
-
 ## ARM NEON指令集
 
 - 基本知识
@@ -86,8 +84,6 @@
     }
     ```
 
-    
-
   - 尾递归实现
 
     ```c++
@@ -111,7 +107,7 @@
   ```c++
   #include <iostream>
   
-  # 硬币种类假设有3种，面值1、2、5。
+  // 硬币种类假设有3种，面值1、2、5。
   static const int coins[3] = {1, 2, 5};
   int count(int value, const int* rest_coins, int rest_coins_count) {
     // 当剩余面值无法被兑换成整数个硬币时，value < 0，此时兑换失败，返回0。
