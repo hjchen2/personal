@@ -133,6 +133,51 @@
 
 ## 算法题
 
+### 快排
+```c++
+#include <iostream>
+
+void QuickSort(int* array, const int low, const int high) {
+  if (low >= high) {
+    return;
+  }
+  int anchor = array[low];
+  int i = low, j = high;
+  while (i < j) {
+    while (i < j && array[j] >= array[i]) {
+      --j;
+    }
+    if (i < j) {
+      array[i] = array[j];
+    }
+
+    while (i < j && array[i] <= anchor) {
+      ++i;
+    }
+    if (i < j) {
+      array[j] = array[i];
+    }
+  }
+  array[i] = anchor;
+  QuickSort(array, low, i - 1);
+  QuickSort(array, i + 1, high);
+}
+
+int main() {
+  int array[10] = {2, -1, 0, 6, 8, -2, -5, 7, 4, 3};
+  for (int i = 0; i < 10; ++i) {
+    std::cout << array[i] << std::endl;
+  }
+
+  QuickSort(array, 0, 9);
+
+  for (int i = 0; i < 10; ++i) {
+    std::cout << array[i] << std::endl;
+  }
+  return 0;
+}
+```
+
 ### 递归
 
 - 斐波那契数列
