@@ -89,6 +89,12 @@
 
 - 向量dot的实现（包括普通c、aarch32/aarch64 neon、armv82 dot）
 
+- 指令重排（延迟掩藏）
+https://decodezp.github.io/2019/03/10/quickwords21-skylake-pipeline-6/
+  - RAW型依赖
+  - WAW型依赖
+  - WAR型依赖
+
 
 
 ## Cache优化
