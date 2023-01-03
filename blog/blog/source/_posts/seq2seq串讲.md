@@ -16,7 +16,7 @@ tags: [seq2seq, machine translation, Encoder-Decoder, Attention]
 
 神经机器翻译的目的是将一门语言的文本序列翻译成另一门语言的文本序列，因此机器翻译的训练语料一般是源语言和目标语言组成的一对文本，也叫做平行语料(parallel corpus)。我们通常将输入和输出都是序列的模型叫做seq2seq，seq2seq不仅应用在机器翻译领域，也用于当前热门的自动问答系统以及文本摘要的自动生成等领域。
 
-
+<!-- more -->
 
 ## Encoder-Decoder
 

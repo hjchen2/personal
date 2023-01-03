@@ -10,6 +10,8 @@ tags: [caffe, deep learning, framework]
 ##caffe的由来
 caffe是贾扬清在UC Berkeley攻读计算机科学博士学位时开发的一套深度学习框架，由于高效、易读和模块化的设计，开源后经过nvidia的帮助优化和社区不断的完善，如今成为视觉领域主流的框架之一。
 
+<!-- more -->
+
 - 贾扬清其人   
   清华大学的本硕，UC Berkeley的计算机科学博士，师承Prof. Trevor Darrell，期间在新加坡国立大学、微软亚洲研究院、NEC美国实验室和google研究院实习和工作。博士毕业后一直在google brain担任研究科学家，致力于机器视觉、深度学习和tensorflow相关工作。2016年2月加入facebook，主导facebook大多数AI应用的通用、大规模机器学习平台（目前以caffe2为基础的caffe2go已经开源）。
   

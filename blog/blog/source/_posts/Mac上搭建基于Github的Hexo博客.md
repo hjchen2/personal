@@ -10,6 +10,8 @@ tags: web technology
 注意在mac上安装hexo时选择安装hexo-cli，否则可能会出现以下报错：   
 [Error: Cannot find module './DTraceProviderBindings']
 
+<!-- more -->
+
 ## 主题美化
 简单说一下，下次有时间写个详细过程。主要做了以下修改：
 

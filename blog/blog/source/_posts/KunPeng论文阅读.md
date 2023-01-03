@@ -9,6 +9,8 @@ tags: [large scale ML framework, KunPeng]
 KunPeng是阿里最新公布的一个大规模机器学习框架，不仅包括了数据/模型并行、负载均衡、模型同步、稀疏表达、工业级容错等特性，而且还提供了易于使用的接口，在很多机器学习算法上都带来了非常大的性能提升。
 原始论文 KunPeng: Parameter Server based Distributed Learning Systems and Its Applications in Alibaba and Ant Financial。
 
+<!-- more -->
+
 ## Introduction
 主要对一些通用分布式计算框架进行比较。  
  

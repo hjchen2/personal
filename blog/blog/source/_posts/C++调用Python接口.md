@@ -8,6 +8,8 @@ tags: [c++, python, embedding]
 
 由于需要在组内新开发的一套机器学习框架上开发一个强化学习的demo，但目前开源的一些游戏环境都只提供了python接口，比如Gym。如果要使用Gym去做在线训练的话，就需要在C++代码中调用Python接口，因此找了些例子学习了一下如何使用Python C API。当然Python C API不是唯一的方式，也可以使用boost的Python模块，有时间再研究。
 
+<!-- more -->
+
 ## hello python
 
 ```c++
