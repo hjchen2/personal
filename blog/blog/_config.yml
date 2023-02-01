@@ -88,7 +88,6 @@ deploy:
   type: git
   repository:
     github: https://github.com/hjchen2/hjchen2.github.io.git
-    coding: https://git.coding.net/hjchen2/hjchen2.git
   branch: master
 
 search:
@@ -96,3 +95,11 @@ search:
   field: post
   format: html
   limit: 10000
+
+#Sitemap
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap_template.xml
+  rel: false
+  tag: true
+  category: false
